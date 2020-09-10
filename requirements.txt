@@ -1,0 +1,4 @@
+oreoweb
+hashids
+orm
+databases[postgresql,sqlite]

@@ -1,0 +1,16 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Private stuff
+debug/
+.env
+
+# SQLite
+*.db
+*.sqlite
