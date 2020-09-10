@@ -1,15 +1,14 @@
-# bocadillo-vue-example
+# Oreoweb vue example
 
-URL Shortener web app built with [Bocadillo] and [Vue.js].
+URL Shortener web app built with [Oreoweb] and [Vue.js].
 
-[bocadillo]: https://bocadilloproject.github.io
+[Oreoweb]: https://harishsg99.gitbook.io/oreoweb-do/
 [vue.js]: https://vuejs.org
 
-![](media/demo.gif)
 
 ## Project structure
 
-- `server/`: a REST API server built with [Bocadillo], including [orm](https://github.com/encode/orm) for data validation and database storage, and [hashids](https://github.com/davidaurelio/hashids-python) for URL hash generation.
+- `server/`: a REST API server built with [Oreoweb], including [orm](https://github.com/encode/orm) for data validation and database storage, and [hashids](https://github.com/davidaurelio/hashids-python) for URL hash generation.
 - `frontend/`: a Single-Page Application built with [Vue.js], [Vue Router](https://router.vuejs.org) and [Bulma](https://bulma.io).
 
 ## Install
@@ -50,10 +49,10 @@ DATABASE_URL="sqlite:///sqlite.db"
 
 ## Quickstart
 
-Start the Bocadillo backend app from the project root directory using:
+Start the Oreoweb backend app from the project root directory using:
 
 ```bash
-uvicorn server.asgi:app
+gunicorn server.wsgi:app
 ```
 
 It will be running at http://localhost:8000.
@@ -66,7 +65,6 @@ npm start
 
 You can access it at http://localhost:8080.
 
-Happy URL shortening!
 
 ## License
 
